@@ -65,6 +65,9 @@ class FlashCard(BoxLayout):
         # Clear the correct answer
         self.correct_answer.text = 'Correct Answer:'
 
+        # Clear the text box
+        self.answer.text = ''
+
 class RunQuiz(App):
 
     def build(self):
